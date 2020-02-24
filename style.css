@@ -14,6 +14,10 @@ table
 	margin-right: auto;
 	margin-left: auto;
 }
+input
+{
+	height:10vw;
+}
 td
 {
 	width: 10vw;
