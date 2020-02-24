@@ -14,7 +14,7 @@ table
 	margin-right: auto;
 	margin-left: auto;
 }
-input
+input, #oblicz
 {
 	font-size:24px;
 }
