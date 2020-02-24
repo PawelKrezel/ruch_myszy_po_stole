@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="vewport" content="width=device-width">
+	<title>Ruch myszy po stole</title>
+</head>
+<body>
+	<section id="tresc">
+		<table>
+			<tr><td></td><td></td><td><input type="number" placeholder="szerokość (px)" id="szer"></td><td></td><td></td></tr>
+			<tr><td></td><td colspan="3" rowspan="3" id="kwadrat"><input type="number" id="dpi" placeholder="dpi myszki"></td><td></td></tr>
+			<tr><td class="mniejsze"><input type="number" placeholder="wysokość (px)" id="wyso"></td><td class="mniejsze"></td></tr>
+			<tr><td></td><td></td></tr>
+			<tr><td></td><td colspan="3">
+				<section id="wyniki">
+					<script type="text/javascript" src="script.js"></script>
+					<button id="oblicz" onclick="oblicz()">Oblicz</button><br>
+					<p id="p">
+					</p>
+				</section>
+			</td><td></td></tr>
+		</table>
+		
+	</section>
+</body>
+</html>
