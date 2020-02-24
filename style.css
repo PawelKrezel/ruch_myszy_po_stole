@@ -16,8 +16,8 @@ table
 }
 td
 {
-	width: 20vw;
-	height: 20vw;
+	width: 10vw;
+	height: 10vw;
 }
 td.mniejsze
 {
@@ -27,6 +27,8 @@ td.mniejsze
 {
 	border:solid black;
 	text-align: center;
+	width: 30vw;
+	height: 30vw;
 }
 #szer
 {
@@ -48,8 +50,8 @@ p
 {
 	td
 	{
-		width: 20vw;
-		height: 20vw;
+		width: 10vw;
+		height: 10vw;
 	}
 	td.mniejsze
 	{
@@ -62,5 +64,10 @@ p
 	#oblicz
 	{
 		margin-bottom: 15vw;
+	}
+	#kwadrat
+	{
+		width: 30vw;
+		height: 30vw;
 	}
 }
